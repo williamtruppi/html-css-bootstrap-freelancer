@@ -1,10 +1,19 @@
+.container, .row{
+  height: 100%;
+}
+
+/* header */
+
+header{
+  background-color: #1ABC9C;
+  height: 600px;
+}
+
+/* nav */
+
 nav{
   height: 80px;
   background-color: #2C3E50;
-}
-
-.container, .row{
-  height: 100%;
 }
 
 .col-lg-6{
@@ -13,7 +22,8 @@ nav{
   border: 1px solid black;
 }
 
-header{
-  background-color: #1ABC9C;
-  height: 600px;
+/* main */
+main{
+  margin-top: 40px;
+  text-align: center;
 }
