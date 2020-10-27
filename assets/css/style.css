@@ -2,6 +2,27 @@
   height: 100%;
 }
 
+.container_700{
+  height: 100%;
+  width: 700px;
+  margin: 0 auto;
+}
+
+/* classi UTILITY */
+
+/* .text_center{
+  text-align: center;
+}
+
+.text_left{
+  text-align: left;
+}
+
+.text_right{
+  text-align: right;
+} */
+
+
 /* header */
 
 header{
@@ -16,14 +37,36 @@ nav{
   background-color: #2C3E50;
 }
 
-.col-lg-6{
+nav .col-lg-6{
   height: 80px;
   background-color: yellow;
   border: 1px solid black;
 }
 
 /* main */
+
 main{
   margin-top: 40px;
   text-align: center;
+}
+
+/* PORTFOLIO SECTION */
+
+.box_portfolio{
+  background-color: yellow;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#portfolio .row{
+  margin-bottom: 10px;
+}
+
+/* ABOUT SECTION */
+
+#about{
+  background-color: #1ABC9C;
+  color: white;
+  padding: 60px 0;
 }
