@@ -8,19 +8,14 @@
   margin: 0 auto;
 }
 
+.debug [class*="col-"] {
+  height: 200px;
+  background-color: pink;
+  border: 1px solid red;
+}
+
 /* classi UTILITY */
 
-/* .text_center{
-  text-align: center;
-}
-
-.text_left{
-  text-align: left;
-}
-
-.text_right{
-  text-align: right;
-} */
 
 
 /* header */
@@ -69,4 +64,13 @@ main{
   background-color: #1ABC9C;
   color: white;
   padding: 60px 0;
+}
+
+/* CONTACT ME SECTION */
+
+/* FOOTER */
+
+footer{
+  background-color: #2C3E50;
+  height: 200px;
 }
