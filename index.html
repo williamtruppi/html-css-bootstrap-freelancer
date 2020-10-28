@@ -6,38 +6,53 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <title>Document</title>
 </head>
 
 <body>
 
-  <!-- apertura header -->
-  <header>
-    <!-- apertura nav -->
-    <nav>
-      <!-- apertura container -->
-      <div class="container">
-        <!-- apertura row -->
-        <div class="row">
-          <!-- apertura navbar top -->
-          <div class="navbar_fixed">
-            <div class="col-lg-6 col-xs-6 col-md-6">
-
-            </div>
-            <div class="col-lg-6 col-xs-6 col-md-6">
-
-            </div>
+  <!-- apertura nav -->
+  <nav class="navbar navbar-fixed-top">
+    <!-- apertura container -->
+    <div class="container">
+      <!-- apertura row -->
+      <div class="row row-no-gutters">
+          <!-- navbar LEFT -->
+          <div class="col-lg-6 col-xs-6 col-md-6" id="navbar_left">
+            <a class="" href="#">START BOOTSTRAP</a>
           </div>
-          <!-- chiusura navbar top -->
-          <div class="col-lg-12 col-xs-12 col-md-12">
-
+          <!-- navbar RIGHT -->
+          <div class="col-lg-6 col-xs-6 col-md-6" id="navbar_right">
+            <ul class="list-unstyled list-inline navbar-right">
+              <li><a href="">PORTFOLIO</a></li>
+              <li><a href="">ABOUT</a></li>
+              <li><a href="">CONTACT</a></li>
+            </ul>
           </div>
-        </div>
-        <!-- chiusura row -->
       </div>
-      <!-- chiusura container -->
-    </nav>
-    <!-- chiusura nav -->
+      <!-- chiusura row -->
+    </div>
+    <!-- chiusura container -->
+  </nav>
+  <!-- chiusura nav -->
+
+  <!-- apertura header -->
+  <header class="jumbotron">
+    <!-- apertura CONTAINER -->
+    <div class="container">
+      <!-- apertura ROW -->
+      <div class="row row-no-gutters">
+        <div class="col-lg-12 col-xs-12 col-md-12 text-center id="header_text">
+         <img src="assets/img/smile_man.svg" alt="uomo cartoon che ride">
+         <h1>START BOOTSTRAP</h1>
+        <span></span>  <i class="fas fa-star"></i> <span></span>
+         <p>Graphic Artist - Web Designer - Illustrator</p>
+        </div>
+      </div>
+      <!-- chiusura ROW -->
+    </div>
+    <!-- chiusura CONTAINER -->
   </header>
   <!-- chiusura header -->
 
@@ -48,9 +63,10 @@
       <!-- apertura CONTAINER -->
       <div class="container">
         <!-- apertura row -->
-        <div class="row">
-          <div class="title_port col-lg-12 col-xs-12 col-md-12">
-            <h1>PORTFOLIO</h1>
+        <div class="row row-no-gutters">
+          <div class="text-center col-lg-12 col-xs-12 col-md-12">
+            <h1 class="font-size-63">PORTFOLIO</h1>
+            <i class="fas fa-star"></i>
           </div>
         </div>
         <!-- chiusura row -->
@@ -58,38 +74,36 @@
         <div class="row">
           <div class="col-lg-4 col-xs-12 col-md-6">
             <div class="box_portfolio">
-              <h1>CASA</h1>
+              <a href="#" class="img-fluid"><img src="assets/img/cabin.png" alt="casetta di legno disegnata stile cartoon"></a>
             </div>
           </div>
           <div class="col-lg-4 col-xs-12 col-md-6">
             <div class="box_portfolio">
-              <h1>TORTA</h1>
+              <a href="#"><img src="assets/img/cake.png" alt="casetta di legno disegnata stile cartoon"></a>
             </div>
           </div>
           <div class="col-lg-4 col-xs-12 col-md-6">
             <div class="box_portfolio">
-              <h1>TENDONE</h1>
+              <a href="#"><img src="assets/img/circus.png" alt="casetta di legno disegnata stile cartoon"></a>
             </div>
           </div>
           <div class="col-lg-4 col-xs-12 col-md-6">
             <div class="box_portfolio">
-              <h1>JOYPAD</h1>
+              <a href="#"><img src="assets/img/game.png" alt="casetta di legno disegnata stile cartoon"></a>
             </div>
           </div>
           <div class="col-lg-4 col-xs-12 col-md-6">
             <div class="box_portfolio">
-              <h1>CASSAFORTE</h1>
+              <a href="#"><img src="assets/img/safe.png" alt="casetta di legno disegnata stile cartoon"></a>
             </div>
           </div>
           <div class="col-lg-4 col-xs-12 col-md-6">
             <div class="box_portfolio">
-              <h1>SUBMARINE</h1>
+              <a href="#"><img src="assets/img/submarine.png" alt="casetta di legno disegnata stile cartoon"></a>
             </div>
           </div>
         </div>
         <!-- chiusura row -->
-
-
       </div>
       <!-- chiusura CONTAINER -->
     </section>
@@ -101,8 +115,9 @@
       <div class="container_700 container_768">
         <!-- apertura row -->
         <div class="row">
-          <div class="title_about text_center col-lg-12 col-xs-12 col-md-12">
-            <h1>ABOUT</h1>
+          <div class="title_about text-center col-lg-12 col-xs-12 col-md-12">
+            <h2 class="font-size-63">ABOUT</h2>
+            <i class="fas fa-star"></i>
           </div>
         </div>
         <!-- chiusura row -->
@@ -118,9 +133,9 @@
         <!-- chiusura row -->
 
         <!-- apertura row PULSANTE-->
-        <div class="row">
+        <div class="row text-center">
           <div class="text_about col-lg-12 col-xs-12 col-md-12">
-              <h3 class="text_center">DOWNLOAD</h3>
+            <button type="button" class="btn"><i class="fas fa-download"></i>Free Download!</button>
           </div>
         </div>
         <!-- chiusura row -->
