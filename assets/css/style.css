@@ -184,7 +184,33 @@ main{
 
 footer{
   background-color: #2C3E50;
-  height: 200px;
+  padding: 60px 0;
+}
+
+footer h3{
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+footer p{
+  font-size: 2rem;
+  color: white;
+}
+
+footer i{
+  font-size: 2rem;
+  color: white;
+  margin: 5px;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+
+footer i:hover{
+  background-color: white;
+  color: inherit;
 }
 
 /* media query XS */
