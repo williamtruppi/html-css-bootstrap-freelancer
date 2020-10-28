@@ -12,30 +12,28 @@
 
 <body>
 
-  <!-- apertura nav -->
-  <nav class="navbar navbar-fixed-top">
-    <!-- apertura container -->
+  <nav class="navbar navbar-default navbar-fixed-top" id="navbar_top">
     <div class="container">
-      <!-- apertura row -->
-      <div class="row row-no-gutters">
-          <!-- navbar LEFT -->
-          <div class="col-lg-6 col-xs-6 col-md-6" id="navbar_left">
-            <a class="" href="#">START BOOTSTRAP</a>
-          </div>
-          <!-- navbar RIGHT -->
-          <div class="col-lg-6 col-xs-6 col-md-6" id="navbar_right">
-            <ul class="list-unstyled list-inline navbar-right">
-              <li><a href="">PORTFOLIO</a></li>
-              <li><a href="">ABOUT</a></li>
-              <li><a href="">CONTACT</a></li>
-            </ul>
-          </div>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">START BOOTSTRAP</a>
       </div>
-      <!-- chiusura row -->
-    </div>
-    <!-- chiusura container -->
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
   </nav>
-  <!-- chiusura nav -->
 
   <!-- apertura header -->
   <header class="jumbotron">
@@ -43,11 +41,15 @@
     <div class="container">
       <!-- apertura ROW -->
       <div class="row row-no-gutters">
-        <div class="col-lg-12 col-xs-12 col-md-12 text-center id="header_text">
-         <img src="assets/img/smile_man.svg" alt="uomo cartoon che ride">
-         <h1>START BOOTSTRAP</h1>
-        <span></span>  <i class="fas fa-star"></i> <span></span>
-         <p>Graphic Artist - Web Designer - Illustrator</p>
+        <div class="col-lg-12 col-xs-12 col-md-12 text-center" id="header_text">
+          <img src="assets/img/smile_man.svg" alt="uomo cartoon che ride">
+          <h1>START BOOTSTRAP</h1>
+          <div class="star-logo text-center">
+            <span class="outer-line"></span>
+            <span class="fas fa-star" aria-hidden="true"></span>
+            <span class="outer-line"></span>
+          </div>
+          <p>Graphic Artist - Web Designer - Illustrator</p>
         </div>
       </div>
       <!-- chiusura ROW -->
@@ -66,7 +68,11 @@
         <div class="row row-no-gutters">
           <div class="text-center col-lg-12 col-xs-12 col-md-12">
             <h1 class="font-size-63">PORTFOLIO</h1>
-            <i class="fas fa-star"></i>
+            <div class="star-logo text-center">
+              <span class="outer-line"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="outer-line"></span>
+            </div>
           </div>
         </div>
         <!-- chiusura row -->
@@ -117,7 +123,11 @@
         <div class="row">
           <div class="title_about text-center col-lg-12 col-xs-12 col-md-12">
             <h2 class="font-size-63">ABOUT</h2>
-            <i class="fas fa-star"></i>
+            <div class="star-logo text-center">
+              <span class="outer-line"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="outer-line"></span>
+            </div>
           </div>
         </div>
         <!-- chiusura row -->
@@ -151,7 +161,31 @@
         <!-- apertura row -->
         <div class="row">
           <div class="col-lg-12 col-xs-12 col-md-12">
-            <h3 class="text-center">CONTACT ME</h3>
+            <h3 class="font-size-63 text-center">CONTACT ME</h3>
+            <div class="star-logo text-center">
+              <span class="outer-line"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="outer-line"></span>
+            </div>
+
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address" required>
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Phone Number" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="Textarea1" rows="3" placeholder="Message" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-default">SEND</button>
+            </form>
+
+            </div>
           </div>
         </div>
         <!-- chiusura row -->

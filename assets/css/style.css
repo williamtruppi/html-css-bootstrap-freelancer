@@ -9,25 +9,39 @@ body{
 
 .container_700{
   height: 100%;
-  width: 700px;
+  width: 60%;
   margin: 0 auto;
 }
 
-.debug [class*="col-"] {
+/* .debug [class*="col-"] {
   height: 200px;
   background-color: pink;
   border: 1px solid red;
-}
+} */
 
 /* classi UTILITY */
 
 .font-size-63{
-  font-size: 63px;
+  font-size: 5rem;
   font-weight: 700;
 }
 
 .fa-star{
   font-size: 30px;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+.outer-line {
+  width: 15%;
+  border-bottom: 4px solid;
+}
+
+.star-logo{
   margin-bottom: 20px;
 }
 
@@ -44,39 +58,49 @@ header img{
   width: 25%;
 }
 
-
 /* nav */
 
-nav{
+.navbar-default{
+  border: 0;
+}
+
+#navbar_top{
   height: 80px;
   background-color: #2C3E50;
-  line-height: 80px;
   font-weight: 700;
 }
 
-nav a{
+.navbar-header, #navbar_top .navbar-right li, .navbar-collapse{
+  height: 100%;
+}
+
+.navbar-brand{
+  height: 100%;
+  line-height: 80px;
+  padding: 0 15px;
+}
+
+#navbar_top .navbar-header a {
   color: white;
   text-decoration: none;
+  font-size: 3rem;
+  height: 0;
 }
 
-nav a:hover{
-  text-decoration: none;
-}
-
-#navbar_left a:hover{
+#navbar_top .navbar-right li a{
   color: white;
-}
-
-#navbar_left a{
-  font-size: 28px;
-  padding: 0;
   text-decoration: none;
+  font-size: 1.7rem;
+  margin: 10px 0;
 }
 
-nav .col-lg-6{
-  height: 80px;
-  /* background-color: yellow;
-  border: 1px solid black; */
+.navbar-right li a:hover{
+  color: white;
+  background-color: inherit;
+}
+
+#navbar_top .navbar-header{
+  color: white;
 }
 
 /* main */
@@ -110,7 +134,7 @@ main{
 }
 
 #about p{
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 #about .btn{
@@ -131,6 +155,31 @@ main{
 
 /* CONTACT ME SECTION */
 
+#contact_me{
+  margin: 50PX 0;
+}
+
+.input-group{
+  margin: 0 auto;
+}
+
+#contact_me input, #Textarea1{
+  height: 100%;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0 0 30px 0;
+  border-bottom: 1px solid lightgrey;
+  font-size: 2.3rem;
+}
+
+#contact_me button{
+  padding: 2.5rem;
+  background-color: #159A80;
+  color: white;
+  border-radius: 5px;
+}
+
 /* FOOTER */
 
 footer{
@@ -143,7 +192,7 @@ footer{
 @media screen and (max-width: 768px) {
 
   .container_768{
-    max-width: 768px;
+    max-width: 100vh;
     margin: 0 auto;
   }
 }
